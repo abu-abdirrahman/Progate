@@ -1,0 +1,11 @@
+touch txt.txt
+cat txt.txt	
+mkdir txt
+cd txt.txt	
+pwd 
+ls 
+cd ..
+cd
+mv txt1.txt txt
+mv (rename)
+cp
