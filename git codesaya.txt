@@ -1,0 +1,31 @@
+git config --global user.email "mail@mail.co" 
+git config --global user.name "nama anda"
+
+git init
+git status
+git add nama_file_atau_folder (git add garuda.php.)
+			      (git add garuda.php terbang.css de_el_el.html)
+			      (git add *.php)
+			      (git add .)
+git commit -m "pesan"
+git log			      (git log --oneline)
+			      (git log --author='SafarulMuqoil')
+	                      (git log nama_file.php)
+			      (git log 1ae3d)
+git diff		      (git diff nama_file.php)
+git checkout nama_file.html   (Jika telah masuk staged git reset nama_file.html baru ketik git checkout nama_file.html)
+git checkout HEAD~3 nama_file.php 
+	                      (git checkout HEAD~7 nama_file.php)
+			      (git checkout nomor_commit nama_file.php)
+			      (git revert nomor_commit -n)
+git branch nama_branch        (git checkout nama_branch "pindah branch")
+git merge nama_branch         (git checkout master 'baru' git merge fitur_keren )
+git remote -v                 ("cek repo remote yang sudah ada")
+			      (git remote add nama url)
+			      (git remote rm nama)
+			      (git remote rename nama_lama nama_baru)
+git pull nama_remote nama_branch (seperti copy paste)
+git fetch nama_remote         (import revisi tetapi sebagai cabang yang lain)
+	                      (git log nama_remote/nama_branch)
+			      (git checkout master "baru" git merge nama_repo/master)
+git push nama_remote nama_branch

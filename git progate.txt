@@ -1,0 +1,14 @@
+1. git init
+2. git add file.txt
+3. git commit -m "pesan-pesan"
+4. git remote add origin https:\\bla.com/prog.git
+5. git push origin master
+6. git pull origin master
+
+# Checking changing the file
+ git status
+ git diff
+
+# Checking changing committing file
+ git log         (to commit history)
+ git log -p      (to all file changes)
