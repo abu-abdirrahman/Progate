@@ -1,8 +1,4 @@
-li {
-    color:#444;
-}
-
-/* Change the color of "selected" to #ff0000 */
-.selected {
-    color:#ff0000;
+/* Change the font-family of the <body> tag to "Avenir Next" */
+body {
+    font-family:"Avenir Next";
 }
