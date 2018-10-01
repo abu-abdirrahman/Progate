@@ -4,34 +4,34 @@ body {
 
 li {
     list-style:none;
-    /* Change the float property to left */
-    float:left;    
+    float:left;
+    /* Change the top & bottom padding to 33px, and left & right padding to 28px */
+    padding:33px 20px;    
 }
 
 .header {
-    background-color:#f7f2b4;
+    background-color:#26d0c9;
+    color:#fff;
     height:90px;
 }
 
-/* Change header-logo's font-size to 36px, and float property to left */
 .header-logo {
     font-size:36px;
     float:left;
+    /* Change the top & bottom padding to 20px, and left & right padding to 40 px */
+    padding:20px 40px;
 }
 
-/* Change header-list's float property to left */
 .header-list {
     float:;left;
 }
 
-/* Change main's background-color to #bdf7f1, and height to 600px */
 .main {
     background-color:#bdf7f1;
     height:600px;
 }
 
 
-/*  Change footer's background-color to #ceccf3, and height to 270px */
 .footer {
     background-color:#ceccf3;
     height:270px;
