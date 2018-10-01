@@ -2,12 +2,27 @@ body {
     font-family:"Avenir Next";
 }
 
-/* Change header's background-color to #f7f2b4, and height to 90px */
+li {
+    list-style:none;
+    /* Change the float property to left */
+    float:left;    
+}
+
 .header {
     background-color:#f7f2b4;
     height:90px;
 }
 
+/* Change header-logo's font-size to 36px, and float property to left */
+.header-logo {
+    font-size:36px;
+    float:left;
+}
+
+/* Change header-list's float property to left */
+.header-list {
+    float:;left;
+}
 
 /* Change main's background-color to #bdf7f1, and height to 600px */
 .main {
@@ -22,7 +37,4 @@ body {
     height:270px;
 }
 
-li {
-    list-style:none;
-}
 
