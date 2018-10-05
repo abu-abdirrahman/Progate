@@ -3,10 +3,7 @@ body {
 }
 
 li {
-    list-style:none;
-    float:left;
-    /* Change the top & bottom padding to 33px, and left & right padding to 28px */
-    padding:33px 20px;    
+    list-style:none;     
 }
 
 .header {
@@ -22,8 +19,9 @@ li {
     padding:20px 40px;
 }
 
-.header-list {
-    float:;left;
+.header-list li{
+    float:left;
+    padding:33px 20px;
 }
 
 .main {
