@@ -31,8 +31,31 @@ li {
 
 
 .footer {
-    background-color:#ceccf3;
-    height:270px;
+    /* Change the background-color to #2f5167 */
+    background-color:#2f5167;
+
+    /* Change the color to #fff */
+    color:#fff;
+
+    /* Change the height to 120px */
+    height:120px;
+
+    /* Change the padding for all side to 40px */
+    padding:40px 40px;
 }
 
+/* Change footer-logo's font-size and float property */
+.footer-logo {
+    float:left;
+    font-size:32px;
+}
 
+/* Change footer-list's float property */
+.footer-list {
+    float:right;
+}
+
+/* Add CSS for <li> tags within footer-list */
+.footer-list li {
+    padding-bottom:20px;
+}
