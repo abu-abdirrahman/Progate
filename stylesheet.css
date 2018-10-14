@@ -72,6 +72,30 @@ li {
     padding-top: 100px;
 }
 
+/* Add CSS for <input> and <textarea> tags */
+.contact-form input {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+
+.contact-form textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+
+/* Add CSS for contact-submit */
+.contact-submit {
+    background:#dee7ec;
+    color:#889eab;
+}
 .footer {
     background-color:#2f5167;
     color:#fff;
