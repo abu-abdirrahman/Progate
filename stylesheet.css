@@ -47,36 +47,32 @@ li {
 
 .contents {
     height: 500px;
-    /* Change the margin-top property to 100px */
     margin-top: 100px;
 }
 
 .section-title {
-    border: 2px solid #dee7ce
-    /* Change the font-size to 28px */
+    border: 2px solid #dee7ce;
     font-size: 28px;
-
-    /* Change the padding-bottom property to 15px */
     padding-bottom: 15px;
-
-    /* Change the margin-bottomg property to 50px */
     margin-bottom: 50px;
 }
 
 .contents-item {
     float: left;
-    /* Change the margin-right property to 40px */
     margin-right: 40px;
 }
 
-/* Change the font-size and margin-top of <p> tags within contents-item */
 .contents-item p {
     font-size: 24px;
     margin-top: 30px;
 }
 
+/* Change contact-form's padding-top property to 100px */
+.contact-form {
+    padding-top: 100px;
+}
+
 .footer {
-    
     background-color:#2f5167;
     color:#fff;
     height:120px;
